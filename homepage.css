@@ -13,7 +13,7 @@ body{
     min-height: 100vh;
     background-color: antiquewhite;
 }
-/*navigation color*/
+/*navigation color and arrangement line height*/
 nav{
     display: flex;
     width: 100%;
@@ -21,6 +21,21 @@ nav{
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: red;
-
+    background-color: #ddaf86;
+}
+.Logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0px 15px;
 }
