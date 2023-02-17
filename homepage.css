@@ -49,3 +49,13 @@ nav{
     text-decoration: none;
     text-transform: capitalize;
 }
+/*color when clicked the navigation butt*/
+.navItems li:hover a,
+.Links a:hover{
+    color: beige;
+}
+.Links a{
+    font-size: 30px;
+    color: white;
+    margin: 25px 10px;
+}
