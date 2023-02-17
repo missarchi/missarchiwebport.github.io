@@ -52,7 +52,7 @@ nav{
 /*color when clicked the navigation butt*/
 .navItems li:hover a,
 .Links a:hover{
-    color: beige;
+    color: #ddaf86;
 }
 .Links a{
     font-size: 30px;
