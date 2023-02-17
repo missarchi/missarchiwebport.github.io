@@ -28,7 +28,7 @@ nav{
     display: flex;
     font-size: 40px;
     font-weight: 800;
-    color: white;
+    color: black;
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ nav{
 /*color and design of navigation buttons*/
 .navItems li a{
     font-size: 25px;
-    color: #3d535f;
+    color: black;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
@@ -80,4 +80,14 @@ nav{
     font-size: 35px;
     letter-spacing: 5px;
     color: #3d535f;
+}
+/*line color*/
+.topline::after{
+    position: absolute;
+    content: ' ';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: #ddaf86;
+
 }
