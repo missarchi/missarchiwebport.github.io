@@ -23,6 +23,7 @@ nav{
     z-index: 111;
     background-color: #ddaf86;
 }
+/*myname logo in the corner */
 .Logo{
     display: flex;
     font-size: 40px;
@@ -32,10 +33,19 @@ nav{
     cursor: pointer;
     text-transform: uppercase;
 }
+/*arrange the items para mag tapad*/
 .navItems{
     display: flex;
 }
-.navItems li{
+.navItems li a{
     list-style: none;
     margin: 0px 15px;
+}
+/*color and design of navigation buttons*/
+.navItems li{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
