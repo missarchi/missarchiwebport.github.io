@@ -44,7 +44,7 @@ nav{
 /*color and design of navigation buttons*/
 .navItems li a{
     font-size: 25px;
-    color: white;
+    color: #3d535f;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
@@ -52,10 +52,10 @@ nav{
 /*color when clicked the navigation butt*/
 .navItems li:hover a,
 .Links a:hover{
-    color: #ddaf86;
+    color: beige;
 }
 .Links a{
     font-size: 30px;
-    color: white;
+    color: beige;
     margin: 25px 10px;
 }
