@@ -26,7 +26,7 @@ nav{
 /*myname logo in the corner */
 .Logo{
     display: flex;
-    font-size: 4px;
+    font-size: 4opx;
     font-weight: 800;
     color: black;
     letter-spacing: 3px;
@@ -54,9 +54,10 @@ nav{
 .Links a:hover{
     color: beige;
 }
+/*logo color*/
 .Links a{
     font-size: 30px;
-    color: beige;
+    color: black;
     margin: 25px 10px;
 }
 
