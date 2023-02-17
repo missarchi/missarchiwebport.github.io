@@ -37,12 +37,12 @@ nav{
 .navItems{
     display: flex;
 }
-.navItems li a{
+.navItems li{
     list-style: none;
     margin: 0px 15px;
 }
 /*color and design of navigation buttons*/
-.navItems li{
+.navItems li a{
     font-size: 25px;
     color: white;
     letter-spacing: 3px;
