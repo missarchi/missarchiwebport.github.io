@@ -20,7 +20,7 @@ nav{
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: #f1cfb7;
+
 }
 /*myname logo in the corner */
 .Logo{
@@ -73,13 +73,13 @@ nav{
 .wrapper::before{
     position: absolute;
     content: '';
-    height: 600px;
-    width: 600px;
+    height: 390px;
+    width: 390px;
     border-radius: 50%;
     left: -12%;
     top: 40%;
     background: linear-gradient(45deg,#e3a272,#f7e6d9);
-    animation: object1 6s linear infinite;
+    animation: object1 4s linear infinite;
 }  
 /*to make the big shape behind the text */
 .cols{
@@ -91,18 +91,18 @@ nav{
 .wrapper::after{
     position: absolute;
     content: '';
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     border-radius: 50%;
     left: 35%;
-    top: 12%;
+    top: 16%;
     background: linear-gradient(45deg,#e3a272,#f7e6d9);
-    animation: object1 6s linear infinite;
+    animation: object2 4s linear infinite;
 }  
 
 @keyframes object1{
     50%{
-        left: 30%;
+        left: -13%;
         top: 41%;
     }
 }
