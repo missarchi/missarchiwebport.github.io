@@ -141,9 +141,9 @@ button:hover{
     position: relative;
     height: 100%;
     width: calc(130% - 80px);
-    top: -600px;
+    top: -500px;
     right: 50px;
-    left: 300;
+    left: 800;
     margin: 0 0 0 700px;
     transform: rotateY(180deg);
     animation: animateUser 4s linear infinite;
