@@ -52,7 +52,7 @@ nav{
 /*color when clicked the navigation butt*/
 .navItems li:hover a,
 .Links a:hover{
-    color: #f5ddcb;
+    color: #f3d8c4;
 }
 /*logo links IG twitter etc color*/
 .Links a{
@@ -128,5 +128,5 @@ button{
 }
 /*hover color button*/
 button:hover{
-    background-color: #f5ddcb;
+    background-color: #f3d8c4;
 }
