@@ -70,6 +70,60 @@ nav{
     padding: 0 10%;
     overflow: hidden;
 }
+.wrapper::before{
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: -12%;
+    top: 40%;
+    background: linear-gradient(45deg,#e3a272,#e9b48e);
+    animation: object1 6s linear infinite;
+}  
+/*to make the big shape behind the text */
+.cols{
+    width: 50%;
+}
+.cols0{
+    z-index: 5;
+}
+.wrapper::after{
+    position: absolute;
+    content: '';
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 35%;
+    top: 12%;
+    background: linear-gradient(45deg,#e3a272,#e9b48e);
+    animation: object1 6s linear infinite;
+}  
+
+@keyframes object1{
+    50%{
+        left: -13%;
+        top: 41%;
+    }
+}
+
+@keyframes object2{
+    50%{
+        left: 35%;
+        top: 10%;
+    }
+}
+/*to make the small shape behind the text */
+.cols{
+    width: 50%;
+}
+.cols0{
+    z-index: 5;
+}
+
+
+
+
 /*cols the description*/
 .cols{
     width: 50%;
