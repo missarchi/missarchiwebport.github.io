@@ -21,7 +21,7 @@ nav{
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: #edc2a2;
+    background-color: #efccb0;
 }
 /*myname logo in the corner */
 .Logo{
@@ -119,7 +119,7 @@ button{
     font-size: 25px;
     font-weight: 400;
     color: #e3a272;
-    background-color: #edc2a2;
+    background-color: #efccb0;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
