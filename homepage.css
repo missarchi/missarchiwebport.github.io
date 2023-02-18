@@ -165,6 +165,6 @@ button:hover{
 @keyframes animate{
     50%{
         left: 51%;
-        width: 100%;
+        width: 155%;
     }
 }
