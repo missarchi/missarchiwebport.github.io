@@ -135,7 +135,7 @@ button:hover{
 .imgbox{
     position: relative;
     width: 50%;
-    height: 90%;
+    height: 95%;
 }
 .imgbox img{
     position: relative;
@@ -143,7 +143,8 @@ button:hover{
     width: calc(130% - 80px);
     top: -600px;
     right: 50px;
-    margin: 100px 0 0 700px;
+    left: 100;
+    margin: 0 0 0 700px;
     transform: rotateY(180deg);
     animation: animateUser 4s linear infinite;
 }
