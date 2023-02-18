@@ -28,7 +28,7 @@ nav{
     display: flex;
     font-size: 4opx;
     font-weight: 800;
-    color: #d2945e;
+    color: #e3a272;
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ nav{
 /*color and design of navigation buttons*/
 .navItems li a{
     font-size: 25px;
-    color: #d2945e;
+    color: #e3a272;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
@@ -57,7 +57,7 @@ nav{
 /*logo color*/
 .Links a{
     font-size: 30px;
-    color: black;
+    color: #e3a272;
     margin: 25px 10px;
 }
 
@@ -126,6 +126,7 @@ button{
     text-transform: capitalize;
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
 }
+/*hover color button*/
 button:hover{
     background-color: beige;
 }
