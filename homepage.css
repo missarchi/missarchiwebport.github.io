@@ -70,7 +70,6 @@ nav{
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
-    cursor: pointer;
 }
 /*cols the description*/
 .cols{
@@ -106,4 +105,27 @@ p{
     display: block;
     font-size: 1.2em;
     color: black;
+}
+.btns{
+    width: 100%;
+    position: relative;
+    left: 150px;
+}
+/*button cv color background border inside shadow down*/
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ddaf86;
+    background-color: beige;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+}
+button:hover{
+    background-color: beige;
 }
