@@ -26,7 +26,7 @@ nav{
 /*myname logo in the corner */
 .Logo{
     display: flex;
-    font-size: 4opx;
+    font-size: 40px;
     font-weight: 800;
     color: #e3a272;
     letter-spacing: 3px;
