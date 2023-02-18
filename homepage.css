@@ -5,7 +5,7 @@
     font-family: 'poppins', sans-serif;
 }
 body{
-/*overflow: hidden;*/
+    overflow: hidden;
 }
 .container{
     width: 100%;
@@ -134,7 +134,7 @@ button:hover{
 /*image moving profife*/
 .imgbox{
     position: relative;
-    width: 70%;
+    width: 50%;
     height: 100%;
 }
 .imgbox img{
