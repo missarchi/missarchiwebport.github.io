@@ -150,7 +150,22 @@ button:hover{
 @keyframes animateUser{
     50%{
         right: 30px;
-        top: -90px;
-        
+        top: -90px;     
+    }
+}
+.imgbox #splash{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    width: 160%;
+    filter: saturate(200%);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    50%{
+        top: 49px;
+        left: 51%;
+        width: 155%;
     }
 }
