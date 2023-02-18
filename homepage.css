@@ -5,7 +5,7 @@
     font-family: 'poppins', sans-serif;
 }
 body{
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .container{
     width: 100%;
@@ -154,17 +154,16 @@ button:hover{
 }
 .imgbox #splash{
     position: absolute;
-    height: 10px;
+    height: 500px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-35deg);
-    width: 160%;
-    filter: saturate(200%);
+    margin: -450px 0 0 800px;
+    transform: translate(-70%, -70%) rotate(-35deg);
+    width: 180%;
     animation: animate 4s linear infinite;
 }
 @keyframes animate{
     50%{
-        top: 49px;
         left: 51%;
         width: 155%;
     }
