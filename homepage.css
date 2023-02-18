@@ -21,7 +21,7 @@ nav{
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: #ddaf86;
+    background-color: #eab995;
 }
 /*myname logo in the corner */
 .Logo{
@@ -54,7 +54,7 @@ nav{
 .Links a:hover{
     color: beige;
 }
-/*logo color*/
+/*logo links IG twitter etc color*/
 .Links a{
     font-size: 30px;
     color: #e3a272;
@@ -95,7 +95,7 @@ h1{
     display: block;
     font-size: 7em;
     font-weight: 900;
-    color: black;
+    color: #e3a272;
 }
 .multiText{
     color: #3d535f;
@@ -104,7 +104,7 @@ h1{
 p{
     display: block;
     font-size: 1.2em;
-    color: black;
+    color: #e3a272;
 }
 .btns{
     width: 100%;
@@ -118,8 +118,8 @@ button{
     cursor: pointer;
     font-size: 25px;
     font-weight: 400;
-    color: #ddaf86;
-    background-color: beige;
+    color: #e3a272;
+    background-color: #eab995;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
