@@ -142,7 +142,7 @@ button:hover{
     position: relative;
     height: 100%;
     width: calc(130% - 80px);
-    top: -100px;
+    top: -50px;
     right: 50px;
     transform: rotateY(180deg);
     animation: animateUser 4s linear infinite;
