@@ -85,7 +85,7 @@ nav{
 /*line color*/
 .topline::after{
     position: absolute;
-    content: ' ';
+    content: '';
     height: 4px;
     width: 45px;
     bottom: 10px;
