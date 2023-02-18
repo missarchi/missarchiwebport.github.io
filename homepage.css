@@ -78,7 +78,7 @@ nav{
 .topline{
     display: block;
     position: relative;
-    font-size: 15px;
+    font-size: 35px;
     letter-spacing: 5px;
     color: #3d535f;
 }
@@ -100,6 +100,7 @@ h1{
 .multiText{
     color: #3d535f;
     text-transform: capitalize;
+    font-size: 10px;
 }
 p{
     display: block;
