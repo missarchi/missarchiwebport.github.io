@@ -52,7 +52,7 @@ nav{
 /*color when clicked the navigation butt*/
 .navItems li:hover a,
 .Links a:hover{
-    color: #efcbb0;
+    color: #e9b48e;
 }
 /*logo links IG twitter etc color*/
 .Links a{
@@ -78,7 +78,7 @@ nav{
 .topline{
     display: block;
     position: relative;
-    font-size: 35px;
+    font-size: 20px;
     letter-spacing: 5px;
     color: #3d535f;
 }
@@ -128,5 +128,5 @@ button{
 }
 /*hover color button*/
 button:hover{
-    background-color: #efcbb0;
+    background-color: #e9b48e;
 }
