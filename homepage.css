@@ -134,7 +134,7 @@ button:hover{
 /*image moving profife*/
 .imgbox{
     position: relative;
-    width: 100%;
+    width: 99%;
     height: 100%;
 }
 .imgbox img{
@@ -143,7 +143,7 @@ button:hover{
     width: calc(130% - 80px);
     top: -600px;
     right: 50px;
-    margin: 0 0 0 1300px;
+    margin: 0 0 0 1100px;
     transform: rotateY(180deg);
     animation: animateUser 4s linear infinite;
 }
@@ -157,7 +157,7 @@ button:hover{
     height: 500px;
     top: 50%;
     left: 50%;
-    margin: -500px 0 0 1300px;
+    margin: -500px 0 0 1100px;
     transform: translate(-70%, -70%) rotate(-35deg);
     width: 180%;
     animation: animate 4s linear infinite;
