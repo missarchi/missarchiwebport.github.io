@@ -143,7 +143,7 @@ button:hover{
     width: calc(130% - 80px);
     top: -500px;
     right: 50px;
-    left: 800;
+    left: 300;
     margin: 0 0 0 700px;
     transform: rotateY(180deg);
     animation: animateUser 4s linear infinite;
