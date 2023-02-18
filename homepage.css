@@ -134,7 +134,7 @@ button:hover{
 /*image moving profife*/
 .imgbox{
     position: relative;
-    width: 99%;
+    width: 80%;
     height: 100%;
 }
 .imgbox img{
