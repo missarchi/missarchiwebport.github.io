@@ -70,6 +70,7 @@ nav{
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
+    cursor: pointer;
 }
 /*cols the description*/
 .cols{
@@ -90,5 +91,19 @@ nav{
     width: 45px;
     bottom: 10px;
     background-color: #ddaf86;
-
+}
+h1{
+    display: block;
+    font-size: 7em;
+    font-weight: 900;
+    color: black;
+}
+.multiText{
+    color: #3d535f;
+    text-transform: capitalize;
+}
+p{
+    display: block;
+    font-size: 1.2em;
+    color: black;
 }
