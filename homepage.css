@@ -78,7 +78,7 @@ nav{
 .topline{
     display: block;
     position: relative;
-    font-size: 20px;
+    font-size: 35px;
     letter-spacing: 5px;
     color: #3d535f;
 }
@@ -103,6 +103,7 @@ h1{
 }
 p{
     display: block;
+    width: 90%;
     font-size: 1.2em;
     color: #e3a272;
 }
