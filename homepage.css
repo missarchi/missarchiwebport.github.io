@@ -44,7 +44,7 @@ nav{
 /*color and design of navigation buttons*/
 .navItems li a{
     font-size: 25px;
-    color: black;
+    color: #d2945e;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
