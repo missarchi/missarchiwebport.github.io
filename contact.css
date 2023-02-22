@@ -131,5 +131,42 @@ h1{
     letter-spacing: 5px;
     left: 250px;
     top: 30px;
+}
+/*image moving profife*/
+.imgbox{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+.imgbox img{
+    position: relative;
+    height: 100%;
+    width: calc(130% - 80px);
+    top: -580px;
+    right: 50px;
+    margin: 0 0 0 750px;
+    transform: rotateY(180deg);
+    animation: animateUser 4s linear infinite;
+}
+@keyframes animateUser{
+    50%{
+        right: 30px;  
     }
+}
+.imgbox #splash{
+    position: absolute;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    margin: -500px 0 0 750px;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    width: 150%;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate{
+    50%{
+        left: 51%;
+        width: 140%;
+    }
+}
 
