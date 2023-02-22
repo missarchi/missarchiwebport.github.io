@@ -18,7 +18,7 @@ form input, form textarea, form button{
     background-color: #ece7e1;
 }
 form button{
-    background-color: #333;
+    background-color: gray;
     cursor: pointer;
 }
 
@@ -86,7 +86,10 @@ nav{
     border-bottom-style: hidden;
     background-color: #f2d3bc;
     padding: 13px;
-    width: 525px;
+    width: 475px;
+}
+.btn:hover{
+    background-color: #e9b48e;
 }
 input{
     border-top-style: hidden;
@@ -96,9 +99,9 @@ input{
     background-color: #f2d3bc;
     margin-bottom: 20px;
     padding: 13px;
-    width: 500px;
+    width: 450px;
     border-radius: 3px;
-    margin: 50px 0 0 100px;
+    margin: 30px 0 0 100px;
 
 }   
 textarea{
@@ -109,9 +112,10 @@ textarea{
     background-color: #f2d3bc;
     margin-bottom: 20px;
     padding: 13px;
-    width: 500px;
+    width: 450px;
+    height: 200px;
     border-radius: 3px;
-    margin: 10px 0 0 100px;
+    margin: 30px 0 0 100px;
 }
 .form-control:focus{
     outline: none;
@@ -119,3 +123,13 @@ textarea{
 .btn:focus{
     outline: none;
 }
+h1{
+    color: #e3a272;
+    display: block;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 5px;
+    left: 250px;
+    top: 30px;
+    }
+
