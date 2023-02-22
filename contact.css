@@ -72,3 +72,50 @@ nav{
     color: #e3a272;
     margin: 25px 10px;
 }
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.btn{
+    cursor: pointer;
+    margin: 10px 0 0 100px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #f2d3bc;
+    padding: 13px;
+    width: 525px;
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #f2d3bc;
+    margin-bottom: 20px;
+    padding: 13px;
+    width: 500px;
+    border-radius: 3px;
+    margin: 50px 0 0 100px;
+
+}   
+textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #f2d3bc;
+    margin-bottom: 20px;
+    padding: 13px;
+    width: 500px;
+    border-radius: 3px;
+    margin: 10px 0 0 100px;
+}
+.form-control:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
