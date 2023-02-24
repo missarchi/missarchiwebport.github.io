@@ -72,3 +72,258 @@ nav{
     color: #e3a272;
     margin: 25px 10px;
 }
+/*services*/
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Background of the hover*/
+.containerservice{
+    height: 360px;
+    width: 300px;
+    background: #eed6c2;
+    position: relative;
+    border-radius: 5px;
+    bottom: -150px;
+    margin-left: 100px;
+}
+.containerservice img{
+    height: 330px;
+    width: 280px;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    z-index: 1;
+    transition: ease 0.5s;
+    box-shadow: 1px 1px 8px black,
+                -1px -1px 8px black;
+}
+.containerservice:hover img{
+    top: -275px;
+}
+.containerservice .about{
+    position: relative;
+    padding: 10px 40px;
+    top: 50px;
+}
+.containerservice .about h3{
+    font-size: 25px;
+    margin-bottom: 38px;
+    color: #e3a272;
+    top: 20px;
+    position: relative;
+}
+.containerservice .about p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #e3a272;
+}
+.containerservice h2{
+    position: absolute;
+    bottom: 5px;
+    top: 130%;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive;
+    color: #e3a272;
+    transition: 0.5s;
+    font-family: 'poppins', sans-serif;
+}
+.containerservice:hover h2{
+    opacity: 0;
+}
+.containerservice .contacts{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    top: 100%;
+    left: -2%;
+}
+.containerservice span{
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.fa-twitter:hover{
+    color: #e3a272;
+}
+.fa-facebook:hover{
+    color: #e3a272;
+}
+.fa-instagram:hover{
+    color: #e3a272;
+
+}
+/*entrepreneur*/
+.containerservice2{
+    height: 360px;
+    width: 300px;
+    background: #eed6c2;
+    position: relative;
+    border-radius: 5px;
+    bottom: 208px;
+    margin-left: 500px;
+}
+.containerservice2 img{
+    height: 330px;
+    width: 280px;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    z-index: 1;
+    transition: ease 0.5s;
+    box-shadow: 1px 1px 8px black,
+                -1px -1px 8px black;
+}
+.containerservice2:hover img{
+    top: -275px;
+}
+.containerservice2 .about{
+    position: relative;
+    padding: 10px 40px;
+    top: 50px;
+    margin-left: 10px;
+}
+.containerservice2 .about h3{
+    font-size: 25px;
+    margin-bottom: 38px;
+    color: #e3a272;
+    top: 20px;
+    position: relative;
+}
+.containerservice2 .about p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    color: #e3a272;
+}
+.containerservice2 h2{
+    position: absolute;
+    bottom: 5px;
+    top: 130%;
+    padding-left: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive;
+    color: #e3a272;
+    transition: 0.5s;
+    font-family: 'poppins', sans-serif;
+}
+.containerservice2:hover h2{
+    opacity: 0;
+}
+.containerservice2 .contacts{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    top: 100%;
+    left: -2%;
+}
+.containerservice2 span{
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.fa-twitter:hover{
+    color: #e3a272;
+}
+.fa-facebook:hover{
+    color: #e3a272;
+}
+.fa-instagram:hover{
+    color: #e3a272;
+    
+}
+/*business woman*/
+.containerservice3{
+    height: 360px;
+    width: 300px;
+    background: #eed6c2;
+    position: relative;
+    border-radius: 5px;
+    bottom: 570px;
+    margin-left: 890px;
+}
+.containerservice3 img{
+    height: 330px;
+    width: 280px;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    z-index: 1;
+    transition: ease 0.5s;
+    box-shadow: 1px 1px 8px black,
+                -1px -1px 8px black;
+}
+.containerservice3:hover img{
+    top: -275px;
+}
+.containerservice3 .about{
+    position: relative;
+    padding: 10px 40px;
+    top: 50px;
+    margin-left: 10px;
+}
+.containerservice3 .about h3{
+    font-size: 23px;
+    margin-bottom: 38px;
+    color: #e3a272;
+    top: 20px;
+    position: relative;
+}
+.containerservice3 .about p{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: justify;
+    color: #e3a272;
+}
+.containerservice3 h2{
+    position: absolute;
+    bottom: 5px;
+    top: 125%;
+    padding-left: 3px;
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive;
+    color: #e3a272;
+    transition: 0.5s;
+    font-family: 'poppins', sans-serif;
+}
+.containerservice3:hover h2{
+    opacity: 0;
+}
+.containerservice3 .contacts{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    top: 100%;
+    left: -2%;
+}
+.containerservice3 span{
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.fa-twitter:hover{
+    color: #e3a272;
+}
+.fa-facebook:hover{
+    color: #e3a272;
+}
+.fa-instagram:hover{
+    color: #e3a272;
+    
+}
+
+
