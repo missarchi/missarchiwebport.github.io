@@ -1,0 +1,146 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+form input, form textarea, form button{
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    background-color: #ece7e1;
+}
+form button{
+    background-color: gray;
+    cursor: pointer;
+}
+
+body{
+    overflow-y: auto;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+
+}
+.Logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #e3a272;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 25px;
+    color: #e3a272;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.Links a:hover{
+    color: #e9b48e;
+}
+/*logo links IG twitter etc color*/
+.Links a{
+    font-size: 30px;
+    color: #e3a272;
+    margin: 25px 10px;
+}
+#about{
+    padding: 70px 30px;
+    
+}
+.sub-heading{
+    color: #e3a272;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+.divider{
+    width: 80px;
+    height: 4px;
+    background-color: #e3a272;
+    border-radius: 3px;
+    margin-left: 20%;
+}
+#about .divider ~ p{
+    color: #e3a272;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+#about .about-col{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px
+}
+#about .about-col .img-col{
+    flex-basis: 35%;
+    text-align: center;
+    margin-left: 8%;
+}
+#about .about-col .img-col img{
+    width: 60%;
+    border-radius: 10px;
+}
+#about .about-col .img-col{
+    flex-basis: 70%;   
+}
+#about .about-col .info-col h2{
+    color: #e3a272;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    margin-top: -10px;
+}
+#about .about-col .info-col p{
+    color: #e3a272;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+#about .about-col .info-col .icon-list-col{
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+}
+#about .about-col .info-col .icon-list-col .icon-list ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+/*SCROLLBAR*/
