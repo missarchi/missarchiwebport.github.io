@@ -79,7 +79,7 @@ nav{
     margin: 25px 10px;
 }
 #about{
-    padding: 70px 30px;
+    padding: 50px 30px;
     
 }
 .sub-heading{
@@ -141,6 +141,18 @@ nav{
 #about .about-col .info-col .icon-list-col .icon-list ul li{
     list-style: none;
     margin: 15px 0;
+}
+#about .about-col .info-col .icon-list-col .icon-list ul li {
+    color: #e3a272;
+}
+#about .about-col .info-col .icon-list-col .icon-list ul li strong{
+    color: #e3a272;
+    font-weight: 600;
+    margin-right: 2px;
+}
+#about .about-col .info-col .icon-list-col .icon-list ul li span{
+    color: #e3a272;
+    font-weight: 500;
 }
 
 /*SCROLLBAR*/
