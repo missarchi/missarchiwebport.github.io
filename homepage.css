@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap);
-$laptop:1024px;
-$desktop:1200px;
-$phone:480px;
-
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +6,6 @@ $phone:480px;
 }
 body{
     overflow: hidden;
-    @media screen and (max-width: 1200px) {
-        background-color: antiquewhite;
-    }
 
 }
 .container{
