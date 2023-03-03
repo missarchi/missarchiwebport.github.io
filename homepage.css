@@ -221,3 +221,10 @@ button:hover{
         width: 140%;
     }
 }
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+}
