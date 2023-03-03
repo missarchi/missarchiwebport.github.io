@@ -224,7 +224,7 @@ button:hover{
 
 /*responsive*/
 @media screen and (max-width: 768px) {
-    .content {
+    .head {
         width: 100%;
     }
 }
