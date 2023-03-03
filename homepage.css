@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap);
-*{
+@media screen and (max-width: 600x) {
+
+body{
+    overflow: hidden;
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
-}
-body{
-    overflow: hidden;
 }
 .container{
     width: 100%;
@@ -223,14 +223,5 @@ button:hover{
 }
 
 /*responsive*/
-@media screen and (max-width: 1200px) {
-    .head {
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 600x) {
-    .head {
-        width: 100%;
-    }
 }
